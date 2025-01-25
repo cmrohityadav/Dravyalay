@@ -1,0 +1,33 @@
+# React Native - mobileapp folder
+/mobileapp/node_modules/
+/mobileapp/ios/build/
+/mobileapp/ios/Pods/
+/mobileapp/ios/*.xcworkspace
+/mobileapp/ios/*.xcuserdata
+/mobileapp/android/.gradle/
+/mobileapp/android/app/build/
+/mobileapp/android/.idea/
+/mobileapp/android/local.properties
+/mobileapp/android/app/*.iml
+/mobileapp/android/*.iml
+/mobileapp/.metro-bundler-cache/
+/mobileapp/.expo/
+/mobileapp/.expo-shared/
+mobileapp/npm-debug.log*
+mobileapp/yarn-debug.log*
+mobileapp/yarn-error.log*
+/mobileapp/.idea/
+/mobileapp/.vscode/
+/mobileapp/.DS_Store
+
+# Node.js Server - server folder
+/server/node_modules/
+/server/.env
+/server/logs/
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+/server/.DS_Store
+/server/.idea/
+/server/.vscode/
+/server/data/
