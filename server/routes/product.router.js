@@ -3,5 +3,5 @@ import {getProductsByCategoryId}  from '../controllers/product.controller.js'
 const router=express.Router()
 
 
-router.route('/:categoryId').post(getProductsByCategoryId)
+router.route('/:categoryId').get(getProductsByCategoryId)
 export default router
