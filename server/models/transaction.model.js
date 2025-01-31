@@ -32,4 +32,4 @@ const transactionSchema=new Schema({
     }
 },{timestamps:true})
 
-export const Transaction=mongoose.model("Transaction",transactionSchema)
+export   const Transaction=mongoose.model("Transaction",transactionSchema)

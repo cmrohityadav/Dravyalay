@@ -12,10 +12,13 @@ app.use(express.json());
 import userRouter from "./routes/user.Router.js"
 import categoryRouter from './routes/category.router.js'
 import productRouter from './routes/product.router.js'
+import orderRouter from './routes/order.router.js'
+
 
 app.use('/api/v1/user',userRouter)
 app.use('/api/v1/category',categoryRouter)
 app.use('/api/v1/product',productRouter)
+app.use('/api/v1/order',orderRouter)
 
 //initial routes for testing
 app.use('/ping',(req,res)=>{res.send("pong")})
