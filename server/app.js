@@ -26,9 +26,9 @@ app.use('/user',userRouter)
 
 
 //// !!!!!IMPORTANT use it always last /////////////////
-app.all("*",(req,res)=>{
-    res.status(404).send("OOPS !! 404 page not found")
-})
+// app.all("*",(req,res)=>{
+//     res.status(404).send("OOPS !! 404 page not found")
+// })
 
 
 
