@@ -1,0 +1,1 @@
+export const COOKIE_PASSWORD=process.env.COOKIE_PASSWORD
